@@ -1,6 +1,9 @@
 const doc = document
 const svgNS = 'http://www.w3.org/2000/svg'
 
+/**
+ * 定义操作node的各种操作
+ */
 export const nodeOps = {
   insert: (child: Node, parent: Node, anchor?: Node) => {
     if (anchor != null) {
